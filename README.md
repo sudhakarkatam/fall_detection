@@ -17,3 +17,27 @@ alerts.
 **User -Friendly Interface**:An LCD display provides real-time updates on system status and sensor readings, enhancing user interaction.
 
 **Continuous Monitoring**:The system resets after an alert and continues to monitor for future falls, ensuring ongoing safety.
+Components of the Lightweight Wearable Fall Detection System
+
+## Hardware Components
+- Arduino Uno
+- MEMS Sensor
+- Force Sensor
+- GPS Module
+- GSM Module
+- LCD Display
+- Buzzer
+- LED Indicator
+## Software Components
+- Arduino IDE
+- Embedded C/C++
+- **Libraries**:
+**Various libraries used in the project, such as**:
+Wire.h: For I2C communication with sensors.
+SoftwareSerial.h: For communication with GSM and GPS modules.
+Adafruit_Sensor.h: For handling data from the accelerometer and gyroscope.
+- **Fall Detection Algorithm**:
+Custom algorithms implemented to analyze sensor data, detect falls, and trigger alerts.
+- **Data Processing Logic**:
+Code that processes the data from sensors to differentiate between normal activities and falls.
+These components work together to create a reliable and efficient fall detection system for elderly individuals, ensuring their safety and independence.
